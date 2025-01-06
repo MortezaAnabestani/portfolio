@@ -40,55 +40,47 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: 'مرتضی عنابستانی (توسعه‌دهندۀ وب و داستان‌پرداز تعاملی)',
+    fullName: 'مرتضی عنابستانی',
+    email: 'anabestani.morteza@gmail.com',
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: 'من',
+    p: ['توسعه‌دهندۀ وب و داستان‌پرداز تعاملی'],
   },
   contact: {
-    p: "Get in touch",
-    h2: "Contact.",
+    p: '',
+    h2: 'مسیر ارتباطی',
     form: {
       name: {
-        span: "Your Name",
-        placeholder: "What's your name?",
+        span: 'نام',
+        placeholder: 'نامت را بنویس',
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
+      email: { span: 'ایمیل', placeholder: 'ایمیلت را بنویس' },
       message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
+        span: 'پیام',
+        placeholder: 'پیامت را بنویس',
       },
     },
   },
   sections: {
     about: {
-      p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      p: 'معرفی',
+      h2: 'دربارۀ من',
+      content: `دانشجوی دکتری زمینه‌ای بینارشته‌ای (نرم‌افزار و هنر) به نام ادبیات الکترونیکم و همزمان به توسعۀ سایت‌های پویا، تعاملی و واکنشی می‌پردازم. زبان برنامه‌نویسی که بهش مسلطم، جاوااسکریپته و با فریم‌ورک ری‌اکت و نود جی اس، آشنایی خوبی دارم. پشتۀ فناورانه‌ای که در اون کسب مهارت می‌کنم MERN-Stack است. با MongoDB، Express، Node.js و React می‌تونم هر برنامه‌ای را در بخش‌های مختلفش (فرانت‌اند، بک‌اند و پایگاه داده)، راه‌اندازی کنم. داستان‌پردازی تعاملی را به‌عنوان علاقه و تخصص اصلی‌ام دنبال می‌کنم و کتابخونه‌هایی مثل D3.js، P5.js و Three.js رو نیز به همین‌منظور یاد گرفتم. به‌تازگی به مهندسی پرامپت و ایجاد ارتباط مؤثر با مدل‌های زبانی هوش مصنوعی علاقه‌مند شدم و تا جایی که در توانم باشه، سعی می‌کنم یاد بگیریم و خلاق بمونم.`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: 'چه مسیری رو طی کردم؟',
+      h2: 'مهارت‌ها',
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: 'حرف مردم',
+      h2: 'نظر دیگران',
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      p: 'نمونه‌کار',
+      h2: 'سایت‌های توسعه‌داده‌شده',
+      content: `نمونه‌کارهای زیر برخی از سایت‌هایی‌ست که توسعه داده‌ام. دلیل انتخاب این‌ها، پشته‌های فناوری متفاوتی است که در توسعه استفاده کرده ام.`,
     },
   },
 };
